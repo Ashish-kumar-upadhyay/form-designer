@@ -368,12 +368,6 @@ function getDragAfterElement(container, y) {
     }, { offset: Number.NEGATIVE_INFINITY }).element;
 }
 
-// Preview Modal Management
-previewButton.addEventListener('click', () => {
-    previewModal.style.display = 'block';
-    createPreviewForm();
-    document.getElementById('generatedHtml').textContent = generatePreviewHtml();
-});
 
 closeModalBtn.addEventListener('click', () => {
     previewModal.style.display = 'none';

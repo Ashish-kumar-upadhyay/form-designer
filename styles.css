@@ -29,8 +29,8 @@ html.dark {
     --hover-bg: #3d3d3d;
     --primary-color: #6abe6e;
     --primary-hover: #5ca55f;
-    --danger-color: #e45a6a;
-    --header-color: #ffffff;
+    --danger-color: #8d8d8d;
+    --header-color: #858080;
     --shadow-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -107,7 +107,7 @@ main {
 }
 
 .components-panel {
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    background: linear-gradient(135deg, rgb(198, 11, 11), black);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px var(--shadow-color);
